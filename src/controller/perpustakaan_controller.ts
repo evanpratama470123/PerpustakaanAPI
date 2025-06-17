@@ -64,8 +64,8 @@ const PerpustakaanController = {
                 imageUrl: imageUrl,
             })
 
-            return res.status(201).json({
-                status: 201,
+            return res.status(200).json({
+                status: 200,
                 message: "Perpustakaan created successfully.",
                 perpustakaan: perpustakaan
             })
